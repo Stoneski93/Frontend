@@ -1,0 +1,249 @@
+body{
+	font-family: 'Playfair Display', serif;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.box{
+	
+}
+.links{
+	height: 50px;
+	background-color: #f3f3f3;
+
+}
+.inner{
+	width: 1065px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+
+
+}
+.inner:before{
+	display: block;
+	content: '';
+	clear: both;
+}
+.phone-content{
+	width: 417px;
+	float: left;
+
+}
+.phone-content:before{
+	display: block;
+	content: '';
+	clear: both;
+}
+.login-content{
+	width: 413px;
+	float: left;
+
+}
+.login-content:before{
+	display: block;
+	content: '';
+	clear: both;
+}
+.socialmedia-content{
+	width: 142px;
+	float: left;
+}
+.socialmedia-content::before{
+	display: block;
+	content: '';
+	clear: both;
+}
+.language-content{
+	width: 80px;
+	float: left;
+
+}
+.language-content:before{
+	display: block;
+	content: '';
+	clear: both;
+}
+.head{
+	height:90px;
+	background-color: #ffffff;
+}
+.head-content:before{
+	display: block;
+	content: '';
+	clear: both;
+}
+.logo{
+	text-indent: -99999px;
+	width: 327px;
+	float: left;
+	background-image: url(../img/logo_header.png);
+
+}
+
+.main-menu{
+	float: left;
+	margin-top:14px;
+
+}
+.main-menu a{
+	text-decoration: none;
+	color: black ;
+}
+.main-menu ul>li{
+	display: inline;
+	font-size: 14px;
+	padding-left: 32px;
+	padding-right: 32px;
+	border-left: 1px outset black;
+
+}
+.btn-login{
+	width:75px;
+	height:35px;
+	
+	border: solid 2px none;
+	border-radius:25px;
+
+}
+.sec-hero{
+	background-image: url('../img/hero_image.png');
+	min-height: 892px;
+	background-position: center 35%;
+	position: relative;
+	float: left;
+	width:100%;
+
+}
+.sec-hero:before{
+content: '';
+width: 100%;
+height: 100%;
+position: absolute;
+display: block;
+top: 0;
+left: 0;
+background: rgba(0, 0, 0, .3);
+
+}
+.slider{
+	color: white;
+	float: left;
+	width:100%;
+	margin: 300px auto 0 auto;
+}
+.slider h1{
+	font-size: 70px;
+}
+.slider p{
+	font-size: 25px;
+}
+.btn-charity{
+	font: bold 14px;
+  	text-decoration: none;
+  	background-color: blue;
+  	color: #ffffff;
+  	padding: 15px 32px 15px 32px;
+  	border-top: 1px solid #CCCCCC;
+  	border-right: 1px solid #333333;
+  	border-bottom: 1px solid #333333;
+  	border-left: 1px solid #CCCCCC;
+  	border-radius: 5%;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top,  #1e5799 0%, #7db9e8 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #1e5799 0%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #1e5799 0%,#7db9e8 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #1e5799 0%,#7db9e8 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #1e5799 0%,#7db9e8 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+
+}
+.news-box {
+	margin-top: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+	float:left;
+}
+.news{
+	display: inline-block;
+	width: 400px;
+	height: 200px;
+	float:left;
+}
+.recent-news{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background: blue;
+	float: left;
+}
+.recent-news:before{
+	display: block;
+	content: '';
+	clear: both;
+}
+.news-box:before{
+	display: block;
+	content: '';
+	clear: both;
+}
+.img-new{
+	background: white;
+	width:50%;
+	float: left;
+	height:100%;
+}
+.img-new:before{
+	display: block;
+	content: '';
+	clear: both;
+}
+.text-new{
+	background: red;
+	float:left;
+	width:50%;
+	height:100%;
+}
+.img-text:before{
+	display: block;
+	content: '';
+	clear: both;
+}
+.sec-donation{
+	margin: 0 auto;
+	float: left;
+	
+}
+.sec-donation:before{
+	display: block;
+	content: '';
+	clear: both;
+}
+.inner-donation{
+	margin: 0 auto;
+}
+.inner-donation:before{
+	display: block;
+	content: '';
+	clear: both;
+}
+.sec-volunteer{
+	float:left;
+
+}
+.sec-volunteer:before{
+	display: block;
+	content: '';
+	clear: both;
+}
+.sec-help{
+	float: left;
+}
+.help:before{
+	display: block;
+	content: '';
+	clear: both;
+}
