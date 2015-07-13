@@ -309,7 +309,7 @@ body {
 }
 .slider .btn-charity {
     position: absolute;
-
+	left:50%;
     margin-top: 31px;
     margin-left: -167px;
     padding: 14px 24px 14px 24px;
