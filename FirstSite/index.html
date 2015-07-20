@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/media-queries.css" >
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
@@ -67,7 +68,7 @@
      <a class="btn-charity" href="#">How do I become volunteer</a>
    </div>
    <ul class="news-box">
-    <li class="news">
+    <li class="active .news">
       <div class="img-new-1">
         <h2 class="img-new-tittle-1"><span class="h-img-new-number">25</span><span class="h-img-new-other">May 2015</span></h2>
         <p>Humanitarian<br /> aid in Africa</p>
@@ -106,31 +107,43 @@
       <h1 class="donation-header-tittle">You can help lots of people by donating little. <strong>See Our Causes.</strong></h1>
     </div>
     <div class="donation-box">
-      <h3 class="donation-box-tittle">Help african children <br/> to have homes</h3>
+      <h3 class="donation-box-tittle">Help african children <br/> to have homes</h3>   
       <figure>
-        <img src="img/african-children.png" alt=" "/>
+        <div class="container-image">
+        <img src="img/african-children-media.png" alt=" "/>
+        </div>
         <figcaption class="progres progres-79"></figcaption>
-      </figure>
-      <p>Donation: <span>$94,981</span> / $120,000</p>
+        </figure>
+      <p class="donation-price">Donation: <span>$94,981</span> / $120,000</p>
       <p class="donation-box-text">Suspendisse tempus efficitur sodales. Fusce felis<br /> ante, lobortis non ornare a, quis purus.</p>
       <button class="btn-charity">Donate</button>
     </div>
     <div class="donation-center-box">
       <h3 class="donation-center-box-tittle">Help girls and boys in China to get Education.</h3>
+         
       <figure>
+        <div class="container-image">
         <img src="img/china-children.png" alt="china-children" />
+         </div>
         <figcaption class="progres progres-41"></figcaption>
+       
       </figure>
+      
       <p>Donation: <span>$94,981</span> / $120,000</p>
       <p class="donation-box-text-center">Nam fringilla ornare ex, eu dictum sem. Nunc <br />quis ante lectus.</p>
       <button class="btn-charity">Donate</button>
     </div>
     <div class="donation-box-right">
       <h3 class="donation-box-right-tittle">Help in water supply and con-<br/>struction of wells in Africa.</h3>
+      
       <figure>
+        <div class="container-image">
         <img src="img/african-children-water.png" alt=" african children and water" />
+        </div>
         <figcaption class="progres progres-36"></figcaption>
+        
       </figure>
+      
       <p>Donation: <span>$139,091</span> / $680,500</p>
       <p  class="donation-box-text-right">Proin viverra vestibulum odio in egestas. Proin viverra vestibulum odio in egestas.</p>
       <button class="btn-charity">Donate</button>
@@ -145,7 +158,7 @@
 
 <div class="sec-volunteer">
   <div class="inner-volunteer">
-    <h2 class="inner-volunteer-tittle">Anyone can be a volunteer.Also you.</h2>
+    <h2 class="inner-volunteer-tittle">Anyone can be a volunteer. Also you.</h2>
     <p>Nam fringilla ornare ex, eu dictum sem. Nunc quis ante lectus.<br />
       Proin viverra vestibulum odio in egestas.</p>
       <a class="btn-charity" href="#">Become a volunteer.</a>
@@ -163,19 +176,28 @@
         <div class="help-boxes">
           <div class="help-box">
            <h3 class="help-box-tittle">Media</h3>
+           <div class="container-image">
            <img class="media-image" src="img/media-image.png" alt="media image">
+           </div>
            <p>Nunc feugiat mauris id lorem eleifend, vitae maximus ipsum tincidunt.</p>
          </div>
          <div class="help-box">
           <h3 class="help-box-tittle">Become Volunteer</h3>
+          <div class="container-image">
           <img class="volunteer-image" src="img/become-volunteer-image.png" alt="volunteer image">
+          </div>
           <p>Vestibulum pretium, lorem vitae fermentum <br />facilisis, urna felis porttitor sem, eu fermentum <br/> velit magna a nisi.</p>
         </div>
+        
         <div class="help-box">
           <h3 class="help-box-tittle">Send Donation</h3>
+          <div class="container-image">
           <img class="send-image" src="img/send-image.png" alt="Send image">
+          </div>
           <p>Proin sit amet lacus orci. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p> 
+          
         </div>
+
         <div class="help-choose-options">
           <ul>
             <li class="first-choose-option">How to work our volunteers?</li>
@@ -192,11 +214,11 @@
 
     </div>
     <div class="inner-read-more">
-      <h1 class="sec-read-more-tittle">CharityHand. We help voluntarily.</h1>
+      <h1 class="sec-read-more-tittle"><span class="headline">CharityHand.</span> We help voluntarily.</h1>
       <ul>
         <li><p class="read-more-lines"><span class="more-lines-1974">1974r.</span><br />We work constantly and we strive for.</p></li>
-        <li><p class="read-more-lines"><span class="more-lines-98352">98 352</span><br />Active volunteers around the world.</p></li>
-        <li><p class="read-more-lines"><span class="more-lines-5901023">$5,901,023</span><br />We have compiled for all people.</p></li>
+        <li class="external"><p class="read-more-lines"><span class="more-lines-98352">98 352</span><br />Active volunteers around the world.</p></li>
+        <li class="external"><p class="read-more-lines"><span class="more-lines-5901023">$5,901,023</span><br />We have compiled for all people.</p></li>
       </ul>
       <p class="read-more-text">Nam fringilla ornare ex, eu dictum sem. Nunc quis ante lectus.<br/> 
        Proin viverra vestibulum odio in egestas.</p>
@@ -213,10 +235,14 @@
       </div>
       <div class="newsletter-box">
         <h3 class="read-more-footer-tittle">Newsletter. <span>Signup.</span></h3>
-        <img src="img/read-more-letter-coffee.png" alt="letter and coffee">
+        
         <p>Nunc feugiat mauris id lorem eleifend, vitae max.</p>
         <input type="email" name="email" id="email" placeholder="Your email address..."/>
         <button class="btn-charity">Send</button>
+        <div class="container-image">
+        <img src="img/read-more-letter-coffee.png" alt="letter and coffee">
+        </div>
+
       </div>
     </div>
   </div>
@@ -227,7 +253,8 @@
       </div>
       <div class="inner">
         <div class="contact-slider">
-          <p>Mateusz Madura <img class="madura-face" src="img/madura-face.png" alt="Madura face"> <span class="madura-span">Head Sales of</span> Vision Trust</p>
+          <p>Mateusz Madura 
+          <span class="container-image"><img class="madura-face" src="img/madura-face.png" alt="Madura face"></span> <span class="madura-span">Head Sales of</span> Vision Trust</p>
           <p class="madura-other"><span class="madura-span-other">“ Etiam imperdiet metus ut pretium gravida uisque et vestibulum lacus. 
            Maecenas at lacinia lacus. ”</span></p>
          </div>
@@ -252,11 +279,14 @@
                  <li class="usa-flag"><a href="#"></a></li>
                </ul>
              </div> 
+             <div class="container-image">
              <img src="img/questions-image.png" alt="screen">
+             </div>
              <p class="telephone-number"><span>786</span>-369-8933</p>
              <p class="hours-info">Monday- Friday, 9:00 AM - 10:00 PM</p>
              <p class="mail-info">or email: <a href="#">help@charityhand.com</a></p>
            </div>
+           <div class="connect">
            <div class="contact-footer-box">
             <h3 class="connect-header">Connect</h3>
             <p class="connect-other">Nunc feugiat mauris.</p>
@@ -264,6 +294,8 @@
             <a href="#" class="twitter"></a>
             <a href="#" class="googleplus"></a>
           </div>
+          </div>
+          <div class="sitemap">
           <div class="contact-footer-box">
            <h3 class="sitemap-header">Sitemap</h3>
            <div class="site-links">
@@ -284,6 +316,7 @@
              </div>
            </div>
          </div> 
+       </div>
        </div>
      </div>
    </div>
