@@ -1,0 +1,39 @@
+/* ==========================================================================
+   Variables: colors, sizes, fonts
+   ========================================================================== */
+
+/* Colors
+========================================================================== */
+$color_default:     #282828;
+$color_green:       #008000;
+$color_brown: #7e646c;
+$color_pink: #e01a3c;
+$color_aside: #410b1c;
+$color_brown: #846e74;
+
+
+/* Sizes
+========================================================================== */
+$size_inner:        1000px;
+$aside_size: 211px;
+$sliders-size: 789px;
+$font-size-normal: 11px;
+$font-main-tittle-size: 30px;
+$font-span-size: 18px;
+$font-main-footer-size: 13px;
+
+/* Breakpoints
+========================================================================== */
+$breakpoint_tablet:             max-width 1225px;
+$breakpoint_tablet-mini:        max-width 950px;
+$breakpoint_smartphone:         max-width 767px;
+$breakpoint_smartphone-mini:    max-width 375px;
+
+/* Fonts
+========================================================================== */
+//@import url($fontURL);
+$font_normal:       'Roboto', Arial, sans-serif;
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+//$font_basic: 'Montserrat', sans-serif;
+$font-basic: 'Arial', sans-serif;
+$font_main_tittle: 'HelveticaNeue-Light', Arial, sans-serif;

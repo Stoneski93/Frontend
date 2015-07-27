@@ -1,0 +1,71 @@
+/* ==========================================================================
+   Layouts
+   ========================================================================== */
+.sec {
+    display: block;
+}
+header{
+	margin-top:10px;
+}
+
+.main-content{
+	width: $size_inner;
+	margin: 0 auto;
+
+}
+.inner{
+	width: $size_inner;
+	margin: 0 auto;
+}
+.inner_header{
+	width: size_inner;
+	margin: 0 auto;
+
+}
+
+aside{
+	width: $aside_size;
+	height: 1445px;
+	flex-grow: 0;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.slider-boxes{
+	flex-basis: calc(100% - 211px);
+	height: 1445px;
+	flex-grow: 0;
+    flex-shrink: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+}
+.slider-girls{
+	height:305px;
+}
+.main-footer{
+	flex-basis: 100%
+}
+.slider_boxes{
+	width: $sliders_size;
+
+}
+.slider-highlighter{
+	width:100%;
+	height:330px;
+
+}
+.recent-advert{
+	width:100%;
+	
+
+
+}
+.last_comment_slider{
+	width: 100%;
+
+}
+
