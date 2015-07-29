@@ -25,7 +25,7 @@ header{
 
 aside{
 	width: $aside_size;
-	height: 1445px;
+	height: 1350px;
 	flex-grow: 0;
     flex-shrink: 0;
     display: flex;
@@ -35,7 +35,7 @@ aside{
 }
 .slider-boxes{
 	flex-basis: calc(100% - 211px);
-	height: 1445px;
+	height: 1350px;
 	flex-grow: 0;
     flex-shrink: 0;
     display: flex;

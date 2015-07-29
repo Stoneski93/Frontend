@@ -19,8 +19,10 @@ $aside_size: 211px;
 $sliders-size: 789px;
 $font-size-normal: 11px;
 $font-main-tittle-size: 30px;
-$font-span-size: 18px;
-$font-main-footer-size: 13px;
+$font-main-span-size: 18px;
+$font-size-second: 13px;
+$font-size-nav: 11px;
+
 
 /* Breakpoints
 ========================================================================== */
@@ -33,7 +35,10 @@ $breakpoint_smartphone-mini:    max-width 375px;
 ========================================================================== */
 //@import url($fontURL);
 $font_normal:       'Roboto', Arial, sans-serif;
+
+@import url(../font/museo-700.otf?family=Museo:700);
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 //$font_basic: 'Montserrat', sans-serif;
 $font-basic: 'Arial', sans-serif;
+$font_second: 'Mueso 700', sans-serif;
 $font_main_tittle: 'HelveticaNeue-Light', Arial, sans-serif;

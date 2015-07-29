@@ -6,6 +6,15 @@
         init: function () {
             this.$body = $('body');
             this.liveReload();
+            this.dropDownMenu();
+        },
+        dropDownMenu: function() {
+            $('.main-menu__item').on('mouseover', function() {
+              $(this).find('.sub-menu').css('visibility','visible');
+            });
+            $('.main-menu__item').on('mouseout', function() {
+                $('.sub-menu').css('visibility','hidden');
+            });
         },
         liveReload: function () {
             if (window.location.hostname === 'localhost'){
