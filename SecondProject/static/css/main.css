@@ -1297,7 +1297,7 @@ body {
 .footer {
   position: relative;
   height: 194px;
-  background: url("../img/footer-img.png") 250px -168px no-repeat; }
+  background: url("../img/footer-img.png") 50% -168px no-repeat; }
 
 .footer-wrapper {
   position: absolute;

@@ -1,0 +1,40 @@
+/* ==========================================================================
+   Layouts
+   ========================================================================== */
+.sec {
+    display: block;
+}
+.sec--head {
+    @extend .sec;
+    height:840px;
+    width:100%;
+    
+}
+.inner{
+	width:1170px;
+	margin: 0 auto;
+	&--head{
+		width:1170px;
+		height:840px;
+		margin: 0 auto;
+		background: url(../../src/img/background-header.png) 50% 0;
+		padding-top:20px;
+		position:relative;
+	}
+	&--content{
+		width:1170px;
+		margin: 0 auto;
+		padding-left:28px;
+		margin-top:-42px;
+		display: flex;
+		flex-wrap:nowrap;
+		align-items: center;
+		align-content: center;
+
+	}
+}
+.content-box-left{
+	margin-top:-100px;
+	position: relative;
+
+}
